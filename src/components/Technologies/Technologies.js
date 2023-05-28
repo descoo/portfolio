@@ -1,5 +1,5 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiFirebase, DiReact, DiZend, DiAndroid } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -19,8 +19,8 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world. From
-      Back-end To Design
+      I have worked with a wide range of technologies in the development world.
+      From mobile to web and back-end
     </SectionText>
     <List>
       <ListItem>
@@ -30,8 +30,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Bootstrap, Tailwind-css, <br />
-            Styled-components, Redux, React.js
+            Bootstrap, Tailwind-css, JQuery <br />
+            Styled-components, Redux, React.js, Angular, RoR
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -42,21 +42,19 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Flask, <br />
-            nextjs and Databases
+            Flask, Ruby on Rails
+            <br />
+            nextjs, FireStore
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <DiAndroid size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            A little <br />
-            knowledge of Figma
-          </ListParagraph>
+          <ListTitle>Mobile</ListTitle>
+          <ListParagraph>React Native, Flutter</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>

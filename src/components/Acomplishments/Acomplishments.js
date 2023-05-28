@@ -7,12 +7,7 @@ import {
 } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
-const data = [
-  { number: 1, text: "Self taught programmer" },
-  // { number: 1000, text: 'Students', },
-  // { number: 1900, text: 'Github Followers', },
-  // { number: 5000, text: 'Github Stars', }
-];
+const data = [{ number: 1, text: "As a hired self taught developer" }];
 
 const Acomplishments = () => (
   <Section>
@@ -20,7 +15,7 @@ const Acomplishments = () => (
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
-          <BoxNum>{`${card.number} year`}</BoxNum>
+          <BoxNum>{`${card.number}+ years`}</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}

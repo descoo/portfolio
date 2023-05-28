@@ -1,14 +1,5 @@
 export const projects = [
   {
-    title: "Best Cafes In London",
-    description:
-      "Using Python, Flask, SQLAlchemy, I build a Full Stack Application. The App is called Best Cafes In London and it is a simple way for users to recommend and get to see the best cafes in London.",
-    image: "/images/cafe-website.png",
-    tags: ["Jinja2", "Flask", "Bootstrap", "SqlAlchemy"],
-    visit: "https://best-cafe-wifi.herokuapp.com/",
-    id: 0,
-  },
-  {
     title: "Airbnb Clone",
     description:
       "Used NextJs, Tailwind-css, Mapbox, react-date-range to create airbnb clone",
@@ -26,6 +17,27 @@ export const projects = [
     visit: "https://slack-clone-b29e0.web.app/",
     id: 2,
   },
+  {
+    title: "Work Project - Bruce's doggy day care",
+    description:
+      "Bruce's is an award winning doggy day care and grooming service provider in the UK. Bitcube implemented and contributes to improve a fully bespoke CRM system to allow customers to make reservations from both web, IOS and Android, intergrating into back-office systems and processess of Bruce's operational team members",
+    image: "/images/bruces-project.png",
+    tags: ["Ruby on rails", "Angular", "Flutter"],
+    visit: "https://www.brucesdoggydaycare.co.uk/",
+    id: 3,
+  },
+  {
+    title: "Uber App clone",
+    description: "The famous popular uber app made with react-native",
+    image: "/images/uber.webp",
+    tags: ["React-Native", "Redux"],
+    source: "https://github.com/descoo/react-native-uber-clone",
+    id: 4,
+  },
 ];
 
-export const TimeLineData = [{ year: 2017, text: "Started my journey" }];
+export const TimeLineData = [
+  { year: 2020, text: "Started my journey" },
+  { year: 2021, text: "Internship at Bitcube" },
+  { year: 2022, text: "Full Stack developer at Bitcube" },
+];

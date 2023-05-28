@@ -18,7 +18,7 @@ const Hero = (props) => (
           Skhumbuzo More's <br />
           Portfolio
         </SectionTitle>
-        <SectionText>I'm a full stack web developer.</SectionText>
+        <SectionText>Full stack developer.</SectionText>
         <Button>
           <BtnLinkItem href="mailto:moreskhumbuzo@gmail.com">
             Get In Touch

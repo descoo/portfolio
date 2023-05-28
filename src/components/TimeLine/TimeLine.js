@@ -72,7 +72,7 @@ const Timeline = () => {
         and I never looked back. Now I do full stack development. Take a look at
         my skills and most present projects.
       </SectionText>
-      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -140,7 +140,7 @@ const Timeline = () => {
             </CarouselButton>
           );
         })}
-      </CarouselButtons> */}
+      </CarouselButtons>
       <SectionDivider />
     </Section>
   );
