@@ -67,10 +67,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I was a clerk/financial admin, not fulfilled in my job, not knowing
-        where I was going in life... Then I started this journey of programming
-        and I never looked back. Now I do full stack development. Take a look at
-        my skills and most present projects.
+        A software developer with a junior level experience, specializing in
+        user-interface design, application development and continuous
+        improvement. Adept at identifying opportunities to enhance and develop
+        new features to improve user experience.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
