@@ -1,5 +1,3 @@
-## Personal Portfolio
-
 Template adopted from jsmastery
 
 Setup:
