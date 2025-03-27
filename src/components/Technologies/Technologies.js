@@ -1,5 +1,5 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend, DiAndroid } from "react-icons/di";
+import { DiFirebase, DiReact, DiAndroid } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -31,7 +31,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Bootstrap, Tailwind-css, JQuery <br />
-            Styled-components, Redux, React.js, Angular, RoR
+            Styled-components, Redux, React.js, Angular, Ruby on Rails
           </ListParagraph>
         </ListContainer>
       </ListItem>

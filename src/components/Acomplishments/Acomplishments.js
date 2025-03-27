@@ -7,7 +7,7 @@ import {
 } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
-const data = [{ number: 1, text: "As a hired self taught developer" }];
+const data = [{ number: 3, text: "As a professional developer" }];
 
 const Acomplishments = () => (
   <Section>
