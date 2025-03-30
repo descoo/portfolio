@@ -1,5 +1,5 @@
 import React from "react";
-import { DiFirebase, DiReact, DiAndroid } from "react-icons/di";
+import { DiFirebase, DiReact, DiAndroid, DiAsterisk } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -19,10 +19,22 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked with a wide range of technologies in the development world.
-      From mobile to web and back-end
+      My experience spans a diverse range of technologies, enabling me to build
+      solutions across mobile, web, and back-end environments.
     </SectionText>
     <List>
+      <ListItem>
+        <picture>
+          <DiAsterisk size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Tools & Technologies:</ListTitle>
+          <ListParagraph>
+            - Git: Proficient <br />
+            - RESTful APIs: Proficient <br />- GraphQL: Familiar
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
       <ListItem>
         <picture>
           <DiReact size="3rem" />
@@ -30,8 +42,12 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Bootstrap, Tailwind-css, JQuery <br />
-            Styled-components, Redux, React.js, Angular, Ruby on Rails
+            - React: Proficient <br />
+            - Angular: Proficient <br />
+            - Next.js: Experienced <br />
+            - Flutter: Proficient <br />
+            - HTML/CSS: Proficient <br />- JavaScript/JQuey/TypeScript:
+            Proficient
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -40,11 +56,16 @@ const Technologies = () => (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Back-End & Databases</ListTitle>
           <ListParagraph>
-            Flask, Ruby on Rails
-            <br />
-            nextjs, FireStore
+            - Node.js: Experienced <br />
+            - Ruby on Rails: Proficient <br />
+            - Flask: Experienced <br />
+            - Express.js: Experienced <br />
+            - FireStore: Experienced <br />
+            - PostgreSQL: Proficient <br />
+            - MongoDB: Familiar <br />
+            - MySQL: Experienced <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -54,7 +75,9 @@ const Technologies = () => (
         </picture>
         <ListContainer>
           <ListTitle>Mobile</ListTitle>
-          <ListParagraph>React Native, Flutter</ListParagraph>
+          <ListParagraph>
+            - React Native: Experienced <br />- Flutter: Proficient
+          </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>

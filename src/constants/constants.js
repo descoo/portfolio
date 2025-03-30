@@ -42,4 +42,3 @@ export const TimeLineData = [
   { year: 2022, text: "Full Stack developer at Bitcube" },
   { year: 2025, text: "Mid level Full Stack developer at Bitcube" },
 ];
-];

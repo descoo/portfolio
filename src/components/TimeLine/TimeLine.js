@@ -67,10 +67,21 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        A software developer with a junior level experience, specializing in
-        user-interface design, application development and continuous
-        improvement. Adept at identifying opportunities to enhance and develop
-        new features to improve user experience.
+        A highly motivated individual with a BCom degree in Financial Sciences
+        and a strong passion for software development. While my academic
+        background provides a solid foundation in analytical thinking,
+        problem-solving, and attention to detail, I am eager to leverage these
+        skills in a dynamic software engineering environment. I possess a strong
+        understanding of project management principles, including story points
+        and task weighing, and I am committed to delivering high-quality work
+        within specified timeframes. I am proficient in React, Angular, Flutter,
+        and Ruby on Rails, and have experience developing with Node.js, Next.js,
+        and Flask. I am also familiar with non-relational databases. I am a
+        quick learner, adept at grasping new technologies and industry best
+        practices. I thrive in team settings, communicate effectively, and am
+        dedicated to contributing to a positive and productive work environment.
+        I am excited to contribute to a potential employer's collective goals
+        and grow my technical abilities within your team.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
